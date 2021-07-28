@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article componenet renders a title, author, and description 1`] = `
+<DocumentFragment>
+  <div>
+    <p>
+       Sports team wins
+    </p>
+    <p>
+       Chase Abbott
+    </p>
+    <span>
+       They won by a lot
+    </span>
+  </div>
+</DocumentFragment>
+`;
