@@ -2,8 +2,8 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import Article from './Article.jsx';
 
-describe('Article componenet', () => {
-  it('renders a title, author, and description', () => {
+describe('ArticleList componenet', () => {
+  it('renders a list of articles', () => {
     const article = {
       title: 'Sports team wins',
       author: 'Chase Abbott',

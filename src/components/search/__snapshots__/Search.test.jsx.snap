@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search componenet renders a form element with input and search button 1`] = `
+<DocumentFragment>
+  <form>
+    <label
+      for="search-input"
+    />
+    <input
+      id="search-input"
+      type="text"
+      value=""
+    />
+    <button>
+       Submit 
+    </button>
+  </form>
+</DocumentFragment>
+`;
