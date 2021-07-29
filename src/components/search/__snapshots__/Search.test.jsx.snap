@@ -8,8 +8,9 @@ exports[`Search componenet renders a form element with input and search button 1
     />
     <input
       id="search-input"
+      name="searchInput"
       type="text"
-      value=""
+      value="Oregon Ducks"
     />
     <button>
        Submit 

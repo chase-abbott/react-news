@@ -8,7 +8,6 @@ const ArticleList = ({ articles }) => {
       <Article article={article}/>
     </li>
   ));
-
   return <ul> {articleItems}</ul>;
 };
 

@@ -4,7 +4,8 @@ import Search from './Search.jsx';
 
 describe('Search componenet', () => {
   it('renders a form element with input and search button', () => {
-    const { asFragment } = render(<Search/>);
+    const search = 'Oregon Ducks';
+    const { asFragment } = render(<Search searchInput={search}/>);
 
     expect(asFragment()).toMatchSnapshot();
   });
