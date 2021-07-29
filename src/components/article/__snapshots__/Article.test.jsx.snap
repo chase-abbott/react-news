@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleList componenet renders a list of articles 1`] = `
+<DocumentFragment>
+  <div
+    style="margin-left: 5px;"
+  >
+    <p>
+       Sports team wins
+    </p>
+    <p>
+       Chase Abbott
+    </p>
+    <span>
+       They won by a lot
+    </span>
+  </div>
+</DocumentFragment>
+`;

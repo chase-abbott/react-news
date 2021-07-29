@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App component renders App 1`] = `
+exports[`Search componenet renders a form element with input and search button 1`] = `
 <DocumentFragment>
   <form
     data-testid="search-form"
@@ -14,14 +14,11 @@ exports[`App component renders App 1`] = `
       id="search-input"
       name="searchInput"
       type="text"
-      value=""
+      value="Oregon Ducks"
     />
     <button>
        Submit 
     </button>
   </form>
-  <ul>
-     
-  </ul>
 </DocumentFragment>
 `;

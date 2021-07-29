@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article componenet renders a title, author, and description 1`] = `
+<DocumentFragment>
+  <ul>
+     
+    <li
+      style="list-style: none; border: 1px solid black; border-radius: 10px; margin-bottom: 10px;"
+    >
+      <div
+        style="margin-left: 5px;"
+      >
+        <p>
+           Sports team wins
+        </p>
+        <p>
+           Chase Abbott
+        </p>
+        <span>
+           They won by a lot
+        </span>
+      </div>
+    </li>
+    <li
+      style="list-style: none; border: 1px solid black; border-radius: 10px; margin-bottom: 10px;"
+    >
+      <div
+        style="margin-left: 5px;"
+      >
+        <p>
+           Dog learns spanish
+        </p>
+        <p>
+           Nelly the Pomeranian
+        </p>
+        <span>
+           A dog that bairly knew english learns spanish
+        </span>
+      </div>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
