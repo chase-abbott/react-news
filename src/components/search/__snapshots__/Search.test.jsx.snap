@@ -2,10 +2,14 @@
 
 exports[`Search componenet renders a form element with input and search button 1`] = `
 <DocumentFragment>
-  <form>
+  <form
+    data-testid="search-form"
+  >
     <label
       for="search-input"
-    />
+    >
+      Search
+    </label>
     <input
       id="search-input"
       name="searchInput"

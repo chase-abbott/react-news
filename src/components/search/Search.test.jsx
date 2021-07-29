@@ -1,5 +1,5 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
 import Search from './Search.jsx';
 
 describe('Search componenet', () => {
@@ -8,5 +8,14 @@ describe('Search componenet', () => {
     const { asFragment } = render(<Search searchInput={search}/>);
 
     expect(asFragment()).toMatchSnapshot();
+  });
+
+  it('tests to see how many times the buttong is clicked', () => {
+    const handleClick = jest.fn();
+
+    render(<Search onSubmit={handleClick}/>);
+    fireEvent.click(screen.getByText('Submit'));
+
+    expect(handleClick).toHaveBeenCalledTimes(1);
   });
 });

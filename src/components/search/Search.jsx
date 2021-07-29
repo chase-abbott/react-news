@@ -2,12 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Search = ({ searchInput, onChange, onSubmit }) => (
-  <form onSubmit={onSubmit}>
-    <label htmlFor="search-input"></label>
+  <form 
+    onSubmit={onSubmit}
+    data-testid="search-form">
+    <label htmlFor="search-input">Search</label>
     <input 
       type="text" 
-      id="search-input"
       name="searchInput"
+      id="search-input"
       value={searchInput}
       onChange={onChange}
     ></input>

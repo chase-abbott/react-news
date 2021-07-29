@@ -4,7 +4,14 @@ import Article from '../article/Article.jsx';
 
 const ArticleList = ({ articles }) => {
   const articleItems = articles.map(article => (
-    <li key={article.title}>
+    <li 
+      key={article.title}
+      style={{
+        listStyle: 'none',
+        border: '1px solid black',
+        borderRadius: '10px',
+        marginBottom: '10px',
+      }}>
       <Article article={article}/>
     </li>
   ));

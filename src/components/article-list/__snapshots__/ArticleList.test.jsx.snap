@@ -4,8 +4,12 @@ exports[`Article componenet renders a title, author, and description 1`] = `
 <DocumentFragment>
   <ul>
      
-    <li>
-      <div>
+    <li
+      style="list-style: none; border: 1px solid black; border-radius: 10px; margin-bottom: 10px;"
+    >
+      <div
+        style="margin-left: 5px;"
+      >
         <p>
            Sports team wins
         </p>
@@ -17,8 +21,12 @@ exports[`Article componenet renders a title, author, and description 1`] = `
         </span>
       </div>
     </li>
-    <li>
-      <div>
+    <li
+      style="list-style: none; border: 1px solid black; border-radius: 10px; margin-bottom: 10px;"
+    >
+      <div
+        style="margin-left: 5px;"
+      >
         <p>
            Dog learns spanish
         </p>

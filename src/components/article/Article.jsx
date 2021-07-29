@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Article = ({ article }) => (
-  <div>
+  <div style={{ marginLeft: '5px' }}>
     <p> {article.title}</p>
     <p> {article.author}</p>
     <span> {article.description}</span>

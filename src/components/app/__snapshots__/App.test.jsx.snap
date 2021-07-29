@@ -2,10 +2,14 @@
 
 exports[`App component renders App 1`] = `
 <DocumentFragment>
-  <form>
+  <form
+    data-testid="search-form"
+  >
     <label
       for="search-input"
-    />
+    >
+      Search
+    </label>
     <input
       id="search-input"
       name="searchInput"
